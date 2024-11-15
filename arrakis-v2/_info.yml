@@ -1,0 +1,17 @@
+audits:
+  - Sherlock https://github.com/ArrakisFinance/v2-core/blob/main/audit/Arrakis_Audit_Report_Sherlock.pdf
+  - WatchPug https://github.com/ArrakisFinance/v2-core/blob/main/audit/Arrakis_v2_Core_Report_Audit_Report_by_WatchPug.pdf
+  - Statemind https://github.com/ArrakisFinance/v2-core/blob/main/audit/arrakis-v2-core-and-palm-statemind-audit.pdf
+comments:
+  - Uniswap only, requires moding to with Algebra
+  - Clean architecture
+  - Swap data sanitization
+  - MultiPosition
+
+samples:
+  Uniswap:
+    DefiEdgeStrategy:
+      - 56:0x1f36e4aeda53f7fac687a8d3ee97d6a4909de512 # uniswap
+  Algebra:
+    DefiEdgeStrategy:
+      - 42161:0xdb1ec4538569aa6600ea86dbda14af187ad9942e # camelot

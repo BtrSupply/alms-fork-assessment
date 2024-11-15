@@ -1,0 +1,12 @@
+audits:
+  - Inspex https://github.com/alpaca-finance/alpaca-v2-automated-vault/blob/main/audit/Inspex_AUDIT2023012_Alpaca%20Finance_Alpaca%20Finance%202.0%20Automated%20Vaults%20V3_FullReport_v1.0.pdf
+
+comments:
+  - PancakeSwap/Uniswap only, requires rework to work with Algebra
+  - Complex architecture
+  - Swap data sanitization
+  - MultiPosition
+
+samples:
+  Uniswap:
+  Algebra:
