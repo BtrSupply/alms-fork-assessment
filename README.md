@@ -1,10 +1,23 @@
-** ALMs Face-off: BTR Fork Assessment **
+# ALMs Face-off: BTR Fork Assessment
 
-Selection Methodology:
+## Intro
+
+### Candidates
+
+The following protocols were selected for being part of the ALM market, having open-source code, permissive licencing, known contributors and/or auditors:
+- Gamma Strategies
+- Arrakis V2
+- Beefy CLM
+- DefiEdge
+- SkateFi
+- Steer Protocol
+- 
+
+### Selection Methodology
 
 - Select the best protocol based on the criteria and sub-criteria listed in the comparison template.
 - Provide a brief explanation of the protocol's strengths and weaknesses.
-- Include a comparison of the protocol's strengths and weaknesses with other protocols, our baseline being Gamma.
+- Include a comparison of the protocol's strengths and weaknesses with our baseline, Gamma Strategies.
 - Discuss the protocol's features, strengths and weaknesses in the context of BTR: use cases covered, missing, and not required.
 
 ## Problem Statement
@@ -34,7 +47,12 @@ These flaws result in **major inefficient capital allocation**, **high costs**, 
 | **MEV Resistant**       | ✔️   | ❌    | -          | ✔️        | ❌        | ❌       | ✔️      | ❌                  |
 | **AAA Audited**         | ✔️   | ✔️   | ✔️        | ✔️        | ✔️       | ✔️      | ✔️      | ❌                  |
 
-## Comparison Template
+### NB
+- Maverick was listed here, but not considered since it is a DEX of its own and does not tap into Uniswap liquidity
+- Arrakis V3 (Modular) was listed here, but no candidate as focusing intent liquidity (Uniswap X, 1inch Fusion, Cow Swap...) through their [HOT AMM](https://docs.arrakis.fi/text/introduction/integrations/hotAmm.html) that uses a V4 hook (w/ [Valantis](https://valantis.xyz/), therefore breaking V3 compatibility.
+- SkateFi and Steer Protocol require further analysis to be listed here, but were rulled-out for lack of track record
+
+## Detailed Comparison Template (see results in sub-folders)
 
 [Criteria	Sub-Criteria 1 * Sub Criteria 2 * ...]	[Protocol A (Gamma)]	[Protocol B (Repository Project X)]	[Comparison Insights]
 1. Audits	* Number of Audits * Auditor Reputation * Audit Scope * Known Vulnerabilities			
