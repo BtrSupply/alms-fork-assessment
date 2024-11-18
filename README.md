@@ -7,7 +7,34 @@ Selection Methodology:
 - Include a comparison of the protocol's strengths and weaknesses with other protocols, our baseline being Gamma.
 - Discuss the protocol's features, strengths and weaknesses in the context of BTR: use cases covered, missing, and not required.
 
-## Comparison Template:
+## Problem Statement
+
+Concentrated Liquidity Managers (CLMs) have theoretically simplified the concentrated liquidity landscape by enabling LPs to maintain yields through targeted price ranges. However, most existing solutions face serious challenges:
+
+| **Competitor Flaws** | **Impact** |
+|-----------------------|------------|
+| Excessive Rebalancing | High impermanent loss for LPs due to market impact and swap fees. |
+| Inefficient Triggers | Poorly timed rebalances increase slippage and reduce profitability. |
+| Deterministic Rebalancing | Predictable swaps invite arbitrageurs, further reducing LP returns. |
+| Poor Volatility and Momentum Analysis | Reactivity (if any) to market movements instead of proactive positioning. |
+| Absence of Forecasting | Strategies fail to adapt to evolving market conditions. |
+
+These flaws result in **major inefficient capital allocation**, **high costs**, and **missed profits**.
+
+## Results
+
+| Criteria                | Flume | Gamma | Arrakis V2 | Arrakis V3 | Beefy CLM | Maverick | DeFiEdge | Ichi/CupcakeHop/Bril |
+|-------------------------|-------|-------|------------|------------|-----------|----------|----------|----------------------|
+| **Aggregated Swaps**    | ✔️   | -     | -          | ✔️        | -         | ❌       | ✔️      | ❌                  |
+| **Low Complexity**      | ✔️   | ✔️   | ✔️        | ❌         | ❌        | ❌       | ❌       | ✔️                 |
+| **Multi-position**      | ✔️   | ❌    | ✔️        | ✔️        | ✔️       | ✔️      | ✔️      | ❌                  |
+| **Uniswap Compatible**  | ✔️   | ✔️   | ✔️        | ✔️ (V4) | ✔️      | ❌       | ✔️      | ✔️                 |
+| **Multi-DEX**           | ✔️   | ✔️   | ✔️        | ❌         | ✔️       | ❌       | ✔️      | ❌                  |
+| **Volatility Aware**    | ✔️   | ❌    | ✔️        | ✔️        | ✔️       | ❌       | ❌       | ❌                  |
+| **MEV Resistant**       | ✔️   | ❌    | -          | ✔️        | ❌        | ❌       | ✔️      | ❌                  |
+| **AAA Audited**         | ✔️   | ✔️   | ✔️        | ✔️        | ✔️       | ✔️      | ✔️      | ❌                  |
+
+## Comparison Template
 
 [Criteria	Sub-Criteria 1 * Sub Criteria 2 * ...]	[Protocol A (Gamma)]	[Protocol B (Repository Project X)]	[Comparison Insights]
 1. Audits	* Number of Audits * Auditor Reputation * Audit Scope * Known Vulnerabilities			
@@ -23,7 +50,7 @@ Selection Methodology:
 11. Upgradability	* Upgradability (Y/N) * Upgrade Process
 12. DEX Compatibility	* Compatibility with Uniswap (Y/N) * Compatibility with Algebra (Y/N) * Compatibility with Balancer/Gyroscope (Y/N) * Compatibility with Trader Joe (Y/N)
 
-## Comparison Prompt for GPT static code analysis:
+## Comparison Prompt for complementary LLM analysis
 
 You will assess multiple solidity projects from this repository.
 Our team is working on a new ALM (automated liquidity manager) for Uniswap V3 (and other concentrated liquidity DEXs) and we need these compared on multiple angles: 
