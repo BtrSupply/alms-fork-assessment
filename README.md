@@ -9,9 +9,9 @@ The following protocols were selected for being part of the ALM market, having o
 - Arrakis V2
 - Beefy CLM
 - DefiEdge
-- SkateFi
+- Ichi (aka BRIL, Cupcake Hop)
+- SkateFi (aka Range Protocol)
 - Steer Protocol
-- 
 
 ### Selection Methodology
 
