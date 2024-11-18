@@ -10,6 +10,7 @@ The following protocols were selected for being part of the ALM market, having o
 - Beefy CLM
 - DefiEdge
 - Ichi (aka BRIL, Cupcake Hop)
+- Alpaca V2
 - SkateFi (aka Range Protocol)
 - Steer Protocol
 
@@ -50,7 +51,7 @@ These flaws result in **major inefficient capital allocation**, **high costs**, 
 ### NB
 - Maverick was listed here, but not considered since it is a DEX of its own and does not tap into Uniswap liquidity
 - Arrakis V3 (Modular) was listed here, but no candidate as focusing intent liquidity (Uniswap X, 1inch Fusion, Cow Swap...) through their [HOT AMM](https://docs.arrakis.fi/text/introduction/integrations/hotAmm.html) that uses a V4 hook (w/ [Valantis](https://valantis.xyz/), therefore breaking V3 compatibility.
-- SkateFi and Steer Protocol require further analysis to be listed here, but were rulled-out for lack of track record
+- SkateFi, Alpaca V2 and Steer Protocol require further analysis to be listed here, but were rulled-out for lack of track record
 
 ## Detailed Comparison Template (see results in sub-folders)
 
