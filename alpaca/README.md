@@ -8,7 +8,7 @@
 | **Criteria** | **Gamma** | **Alpaca** | **Comparison Insights** |
 | --- | --- | --- | --- |
 | **1. Audits** | *3, High, Comprehensive, None* | *1, Medium, Limited, None* | **Gamma has more comprehensive audits** |
-| **2. Code Quality** | *Clarity: 5, LoC: ~1,500, Complexity: Low, Depth: 2, Inheritance: Yes (OpenZeppelin), Proxy Patterns: No, Storage Layout: 5, Dependencies: OpenZeppelin, Uniswap* | *Clarity: 4, LoC: ~2,500, Complexity: Medium, Depth: 3, Inheritance: Yes (OpenZeppelin), Proxy Patterns: Yes (Upgradeable), Storage Layout: 4, Dependencies: OpenZeppelin, Solmate, PancakeSwap* | **Gamma's code is more concise, clearer, and less complex** |
+| **2. Code Quality** | *Clarity: 5, LoC: ~930, Complexity: Low, Depth: 2, Inheritance: Yes (OpenZeppelin), Proxy Patterns: No, Storage Layout: 5, Dependencies: OpenZeppelin, Uniswap* | *Clarity: 4, LoC: ~1070, Complexity: Medium, Depth: 3, Inheritance: Yes (OpenZeppelin), Proxy Patterns: Yes (Upgradeable), Storage Layout: 4, Dependencies: OpenZeppelin, Solmate, PancakeSwap* | **Gamma's code is more concise, clearer, and less complex** |
 | **3. Code Optimization** | *No YUL, Few Redundant Checks, Sound* | *No YUL, Some Redundant Checks, Mostly Sound* | **Gamma is slightly more optimized** |
 | **4. Feature 1: Multi-Position Support** | *N* | *Y (via multiple vaults)* | **Alpaca supports multi-position, but with added complexity** |
 | **5. Feature 2: Generic Calldata Rebalancing** | *N* | *N (only swaps on PancakeSwap using specific calldata, no support for generic calldata or other DEXs)* | **Neither supports generic calldata rebalancing; Alpaca limited to PancakeSwap** |

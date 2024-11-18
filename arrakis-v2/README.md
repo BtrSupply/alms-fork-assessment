@@ -4,13 +4,17 @@
   - Statemind https://github.com/ArrakisFinance/v2-core/blob/main/audit/arrakis-v2-core-and-palm-statemind-audit.pdf
 
 ## Sample Deployment
-  - ...
+```
+  Uniswap:
+    ArrakisV2:
+      - 100:0x7f346f1eb7a65ff83f51b3fd76dcc70979e6df38
+```
 
 ## Gamma Face-off
 | **Criteria** | **Gamma** | **Arrakis-V2** | **Comparison Insights** |
 | --- | --- | --- | --- |
 | **1. Audits** | *3, High, Comprehensive, None* | *3, Medium-High, Comprehensive, None* | **Both have equally comprehensive audits, slight edge towards Gamma** |
-| **2. Code Quality** | *Clarity: 5, LoC: ~1,500, Complexity: Low, Depth: 2, Inheritance: Yes (OpenZeppelin), Proxy Patterns: No, Storage Layout: 5, Dependencies: OpenZeppelin, Uniswap* | *Clarity: 4, LoC: ~1,700, Complexity: Medium, Depth: 3, Inheritance: Yes (OpenZeppelin), Proxy Patterns: Yes (Upgradeable), Storage Layout: 4, Dependencies: OpenZeppelin, Uniswap* | **Gamma's code is more concise, and less complex** |
+| **2. Code Quality** | *Clarity: 5, LoC: ~930, Complexity: Low, Depth: 2, Inheritance: Yes (OpenZeppelin), Proxy Patterns: No, Storage Layout: 5, Dependencies: OpenZeppelin, Uniswap* | *Clarity: 4, LoC: ~1260, Complexity: Medium, Depth: 3, Inheritance: Yes (OpenZeppelin), Proxy Patterns: Yes (Upgradeable), Storage Layout: 4, Dependencies: OpenZeppelin, Uniswap* | **Gamma's code is more concise, less complex, but less featureful** |
 | **3. Code Optimization** | *No YUL, Few Redundant Checks, Sound* | *No YUL, Minimal Redundant Checks, Mostly Sound* | **Both are well-optimized, with a slight edge to Arrakis-V2** |
 | **4. Feature 1: Multi-Position Support** | *N* | *Y (with support for multiple fee tiers)* | **Arrakis-V2 supports multi-position** |
 | **5. Feature 2: Generic Calldata Rebalancing** | *N* | *Y (via the `rebalance` function with swap payload)* | **Arrakis-V2 supports generic calldata swap during rebalancing** |

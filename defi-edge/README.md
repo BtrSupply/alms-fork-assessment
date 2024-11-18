@@ -20,7 +20,7 @@
 | **Criteria** | **Gamma** | **Defi Edge** | **Comparison Insights** |
 |--------------|-----------|---------------|--------------------------|
 | **1. Audits** | *3, High quality, Comprehensive* | *7, Medium-High quality, Detailed* | **Audit Count: Gamma (3), Defi Edge (7)** |
-| **2. Code Quality** | *Clarity: 5, LoC: ~1,500, Complexity: Low* | *Clarity: 4, LoC: ~3,500, Complexity: Medium* | **Code Complexity: Gamma (Low), Defi Edge (Medium)** |
+| **2. Code Quality** | *Clarity: 5, LoC: ~930, Complexity: Low* | *Clarity: 4, LoC: ~850, Complexity: Medium* | **Code Complexity: Gamma (Low), Defi Edge (Medium)** |
 | **3. Code Optimization** | *No YUL, Few Redundant Checks* | *Some Inline Assembly (YUL), Moderate Redundant Checks* | **YUL Usage: Gamma (No), Defi Edge (Yes)** |
 | **4. Feature 1: Multi-Position Support** | *N* | *Y (via multiple ticks)* | **Multi-Position Support: Gamma (No), Defi Edge (Yes)** |
 | **5. Feature 2: Generic Calldata Rebalancing** | *N* | *Y (via generic calldata support)* | **Generic Calldata Rebalancing: Gamma (No), Defi Edge (Yes)** |

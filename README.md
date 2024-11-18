@@ -57,7 +57,7 @@ These flaws result in **major inefficient capital allocation**, **high costs**, 
 
 [Criteria	Sub-Criteria 1 * Sub Criteria 2 * ...]	[Protocol A (Gamma)]	[Protocol B (Repository Project X)]	[Comparison Insights]
 1. Audits	* Number of Audits * Auditor Reputation * Audit Scope * Known Vulnerabilities			
-2. Code Quality	* Clarity (1-5) * Lines of Code (LoC) * Complexity: * Depth * Inheritance * Proxy Patterns * Storage Layout (1-5)
+2. Code Quality	* Clarity (1-5) * Lines of Code (LoC) excluding UUPS and Factory * Complexity: * Depth * Inheritance * Proxy Patterns * Storage Layout (1-5)
 3. Code Optimization	* Inline Assembly/YUL Usage * Redundant Checks * Compute Soundness * Storage Soundness			
 4. Feature 1: Multi-Position Support	* Supported (Y/N) * Implementation Details			
 5. Feature 2: Generic Calldata Rebalancing	* Supported (Y/N) * Implementation Details	
