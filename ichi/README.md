@@ -10,6 +10,8 @@
     IchiVault:
       - 137:0x711901e4b9136119fb047abe8c43d49339f161c3 # uniswap
       - 56:0x80d9d313d2170cb51a769f9dbd0a11f97be28a07 # pancakeswap
+    IchiVaultFactory:
+      - 56:0x131c03ca881B7cC66d7a5120A9273ebf675C241D # pancakeswap
   Algebra:
     IchiVault: []
 ```
@@ -18,7 +20,7 @@
 | **Criteria** | **Gamma** | **Ichi** | **Comparison Insights** |
 |--------------|-----------|---------------|--------------------------|
 | **1. Audits** | *3, High quality, Comprehensive* | *4, Medium-High quality, Detailed* | **Audit Count: Gamma (3), Ichi (4)** |
-| **2. Code Quality** | *Clarity: 5, LoC: ~1,500, Complexity: Low* | *Clarity: 4, LoC: ~2,000, Complexity: Medium* | **Code Complexity: Gamma (Low), Ichi (Medium)** |
+| **2. Code Quality** | *Clarity: 5, LoC: ~1,500, Complexity: Low* | *Clarity: 4, LoC: ~632, Complexity: Low* | **Ichi Vault does not have dependencies and is very concise** |
 | **3. Code Optimization** | *No YUL, Few Redundant Checks* | *No YUL, Moderate Redundant Checks* | **YUL Usage: Gamma (No), Ichi (No)** |
 | **4. Feature 1: Multi-Position Support** | *N* | *N* | **Multi-Position Support: Gamma (No), Ichi (No)** |
 | **5. Feature 2: Generic Calldata Rebalancing** | *N* | *Y (via generic calldata support)* | **Generic Calldata Rebalancing: Gamma (No), Ichi (No)** |
